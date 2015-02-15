@@ -1,5 +1,13 @@
 #Socials#
 
+Social is a helper to provide informations from the following social networks:
+
+* Facebook
+* Twitter
+* Instagram
+* Youtube
+* Flickr
+
 ##What is Socials?##
 
 This is a helper. With socials, you can include social feed in your page through JQuery Ajax method.
