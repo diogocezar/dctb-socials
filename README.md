@@ -1,5 +1,4 @@
 #Socials#
-=======
 
 ##What is Socials?##
 
@@ -25,4 +24,16 @@ The system was developed based at
 
 ##Usage##
 
-To user socials, just replace your socials tokens at file _config/config.php_
+To use socials, just replace your socials tokens at file _config/config.php_
+
+Since the config file was filled, you can customise the JavaScript file _js/socials.js_ to put the informations in your website as you like.
+
+The _ajax.php_ file, is the caller of methods developed at _Socials_ class.
+
+All the core system are in _socials.php_
+
+##Other##
+
+* The _cache_ folder stores the xml files;
+* _css_ folder contains some css to customize this example, if you want to preserve emoticons system, dont forget to include emoticons.css;
+* The _images_ folder contais the buttons and emoticons images;
