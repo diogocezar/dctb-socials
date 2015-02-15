@@ -1,7 +1,7 @@
-socials
+#Socials#
 =======
 
-#What is Socials?#
+##What is Socials?##
 
 This is a helper. With socials, you can include social feed in your page through JQuery Ajax method.
 
@@ -22,3 +22,7 @@ The system was developed based at
 * Ajax
 * JQuery 2.x and 
 * Literal Object.
+
+##Usage##
+
+To user socials, just replace your socials tokens at file _config/config.php_
