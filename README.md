@@ -22,9 +22,9 @@ Also have a smile icons system, that replace the icons posted at social medias.
 
 ##Technologies##
 
-The system was developed based at 
+The system was developed based at:
 
-* PHP
+* PHP 5.x
 * JavaScript
 * Ajax
 * JQuery 2.x and 
