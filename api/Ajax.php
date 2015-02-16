@@ -1,9 +1,14 @@
 <?php
-	include('./config/config.php');
-	include('socials.php');
-	$option = $_GET['option'];
-	if(empty($option))
+	include('../config/config.php');
+	include('Socials.php');
+	if(!empty($_GET['option'])){
+		$option = $_GET['option'];
+			if(empty($option))
+				exit();
+	}
+	else{
 		exit();
+	}
 	$socials = new Socials();
 	switch($option){
 		case 'facebook':

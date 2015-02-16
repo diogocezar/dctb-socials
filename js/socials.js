@@ -159,10 +159,10 @@ Socials = {
             case 'youtube':   get += 'youtube';   break;
             case 'flickr':    get += 'flickr';    break;
         }
-        $("#socials").empty().html("Carregando...");
+        $("#socials").empty().html("Loading...");
         $.ajax({
             type: "POST",
-            url: "ajax.php" + get,
+            url: "./api/Ajax.php" + get,
             success: function (result) {
                 result = JSON.parse(result);
                 switch(type){

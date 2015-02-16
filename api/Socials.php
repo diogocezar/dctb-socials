@@ -1,6 +1,6 @@
 <?php
 	@session_start();
-	include('./api/vendor/autoload.php');
+	include('./vendor/autoload.php');
 
 	use Abraham\TwitterOAuth\TwitterOAuth;
 

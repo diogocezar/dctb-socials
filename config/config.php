@@ -4,7 +4,7 @@
 
 	define('ENABLE_CACHE', "true");
 
-	define('CACHE_DIR', './cache/');
+	define('CACHE_DIR', '../cache/');
 
 	define('CACHE_FB', 'socials_cache_fb.xml');
 
